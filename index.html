@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Northgate Wellness & Medical Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-cross">✦</span>
+        <span class="logo-text">Northgate<em>Wellness</em></span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#doctors">Doctors</a></li>
+        <li><a href="#departments">Services</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="#insurance">Insurance</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#book" class="nav-cta">Book Appointment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+      <div class="hero-orb orb3"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Accepting New Patients · Est. 1989
+      </div>
+      <h1 class="hero-title">
+        Where <em>Science</em><br/>meets <em>Compassion</em>
+      </h1>
+      <p class="hero-sub">Northgate Wellness & Medical Center — a full-service, multi-specialty clinic serving Contra Costa County with 62 physicians across 20 departments.</p>
+      <div class="hero-actions">
+        <a href="#book" class="btn-primary">Book an Appointment</a>
+        <a href="#departments" class="btn-ghost">Explore Our Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">48K+</span>
+          <span class="stat-label">Patients Annually</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">62</span>
+          <span class="stat-label">Licensed Physicians</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">20</span>
+          <span class="stat-label">Specialties</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">35+</span>
+          <span class="stat-label">Years of Care</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- EMERGENCY BANNER -->
+  <div class="emergency-bar">
+    <div class="emergency-inner">
+      <span class="emerg-icon">🚨</span>
+      <strong>Emergency Line:</strong> (925) 774-9911 &nbsp;|&nbsp;
+      <strong>Nurse Hotline:</strong> (925) 774-6200 &nbsp;|&nbsp;
+      <strong>Urgent Care:</strong> Open 8 AM – 9 PM Daily
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <div class="section-label">About Us</div>
+          <h2 class="section-title">Built on trust,<br/><em>driven by excellence</em></h2>
+          <p>Founded in 1989 by Dr. Margaret H. Caldwell and Dr. Elias M. Osei, Northgate Wellness & Medical Center has grown from a two-physician family practice into one of the most comprehensive private medical centers in Contra Costa County, California.</p>
+          <p>Today, NWMC operates across <strong>three campuses</strong>, employs over <strong>340 staff members</strong>, and serves more than <strong>48,000 registered patients</strong> annually. We hold affiliations with St. Mary's Regional Hospital and the UCSF Health Network.</p>
+          <div class="about-badges">
+            <div class="accred-badge">AAAHC Accredited</div>
+            <div class="accred-badge">Joint Commission Gold Seal</div>
+            <div class="accred-badge">PCMH Level 3</div>
+            <div class="accred-badge">HIMSS Stage 7</div>
+          </div>
+        </div>
+        <div class="about-cards fade-in">
+          <div class="value-card">
+            <div class="value-icon">⚕</div>
+            <h3>Compassion</h3>
+            <p>Every patient and family member treated with dignity, empathy, and respect.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">🔬</div>
+            <h3>Excellence</h3>
+            <p>The highest standards of clinical quality, safety, and evidence-based medicine.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">💡</div>
+            <h3>Innovation</h3>
+            <p>Continuously integrating new research and technology into our practice.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">🤝</div>
+            <h3>Inclusivity</h3>
+            <p>Welcoming all patients, reflecting the rich diversity of our community.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTORS -->
+  <section id="doctors" class="section doctors-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Our Team</div>
+        <h2 class="section-title">Meet our <em>physicians</em></h2>
+        <p class="section-sub">Board-certified specialists dedicated to your care</p>
+      </div>
+      <div class="doctors-filter fade-in">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="primary">Primary Care</button>
+        <button class="filter-btn" data-filter="specialty">Specialty</button>
+        <button class="filter-btn" data-filter="surgical">Surgical</button>
+        <button class="filter-btn" data-filter="mental">Mental Health</button>
+      </div>
+      <div class="doctors-grid" id="doctorsGrid">
+
+        <div class="doctor-card fade-in" data-category="primary">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#1a4e7a,#0e7490)">JW</div>
+          <div class="doctor-info">
+            <h3>Dr. James R. Whitfield</h3>
+            <span class="specialty-tag">Family Medicine</span>
+            <p class="credentials">MD, FAAFP · Board Certified 2004</p>
+            <p class="campus-info">📍 Main Campus & Eastside · Ext. 3100</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="primary">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#0e7490,#1a4e7a)">AA</div>
+          <div class="doctor-info">
+            <h3>Dr. Amara Asante-Mensah</h3>
+            <span class="specialty-tag">Family Medicine</span>
+            <p class="credentials">MD, FAAFP · Board Certified 2010</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3101</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="primary">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#2d6a9f,#1a4e7a)">SF</div>
+          <div class="doctor-info">
+            <h3>Dr. Samuel Ferreira</h3>
+            <span class="specialty-tag">Internal Medicine</span>
+            <p class="credentials">MD, FACP · Board Certified 2007</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3110</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="primary">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#0e7490,#065f6e)">NV</div>
+          <div class="doctor-info">
+            <h3>Dr. Nadia Volkov</h3>
+            <span class="specialty-tag">Internal Medicine</span>
+            <p class="credentials">MD, FACP · Board Certified 2012</p>
+            <p class="campus-info">📍 West Valley · Ext. 3111</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="primary">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#1a6b7a,#0e4a5a)">PH</div>
+          <div class="doctor-info">
+            <h3>Dr. Patricia Howell, DO</h3>
+            <span class="specialty-tag">Pediatrics</span>
+            <p class="credentials">DO, FAAP · Board Certified 2008</p>
+            <p class="campus-info">📍 Eastside Clinic · Ext. 3120</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="primary">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#1a4e7a,#2d6a9f)">KO</div>
+          <div class="doctor-info">
+            <h3>Dr. Kevin Okafor</h3>
+            <span class="specialty-tag">Pediatrics</span>
+            <p class="credentials">MD, FAAP · Board Certified 2015</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3121</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="specialty">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#7a1a3a,#a02050)">YT</div>
+          <div class="doctor-info">
+            <h3>Dr. Yuki Tanaka</h3>
+            <span class="specialty-tag cardio">Cardiology</span>
+            <p class="credentials">MD, FACC · Board Certified 2006</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3130</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="specialty">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#a02050,#7a1a3a)">RS</div>
+          <div class="doctor-info">
+            <h3>Dr. Roberto Sandoval</h3>
+            <span class="specialty-tag cardio">Cardiology</span>
+            <p class="credentials">MD, FACC, FHRS · Board Certified 2009</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3131</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="specialty">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#7a4a1a,#a06020)">FA</div>
+          <div class="doctor-info">
+            <h3>Dr. Fatima Al-Rashid</h3>
+            <span class="specialty-tag obgyn">OB-GYN</span>
+            <p class="credentials">MD, FACOG · Board Certified 2011</p>
+            <p class="campus-info">📍 Main & Eastside · Ext. 3140</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="specialty">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#1a7a4a,#0e5a34)">SK</div>
+          <div class="doctor-info">
+            <h3>Dr. Sarah Kim</h3>
+            <span class="specialty-tag endo">Endocrinology</span>
+            <p class="credentials">MD, FACE · Board Certified 2009</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3180</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="specialty">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#4a1a7a,#6030a0)">OH</div>
+          <div class="doctor-info">
+            <h3>Dr. Omar Hassan</h3>
+            <span class="specialty-tag gi">Gastroenterology</span>
+            <p class="credentials">MD, FACG · Board Certified 2005</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3190</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="specialty">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#2a4a7a,#1a3a6a)">HB</div>
+          <div class="doctor-info">
+            <h3>Dr. Helen Brandt</h3>
+            <span class="specialty-tag neuro">Neurology</span>
+            <p class="credentials">MD, FAAN · Board Certified 2010</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3200</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="surgical">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#4a3a1a,#6a5a2a)">TK</div>
+          <div class="doctor-info">
+            <h3>Dr. Thomas Kellner</h3>
+            <span class="specialty-tag ortho">Orthopedic Surgery</span>
+            <p class="credentials">MD, FAAOS · Board Certified 2003</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3150</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="specialty">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#7a1a7a,#a030a0)">AP</div>
+          <div class="doctor-info">
+            <h3>Dr. Anjali Patel</h3>
+            <span class="specialty-tag derm">Dermatology</span>
+            <p class="credentials">MD, FAAD · Board Certified 2013</p>
+            <p class="campus-info">📍 Main Campus · Ext. 3160</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="mental">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#1a4a7a,#0e7490)">MD</div>
+          <div class="doctor-info">
+            <h3>Dr. Marcus DuBois</h3>
+            <span class="specialty-tag psych">Psychiatry</span>
+            <p class="credentials">MD, DFAPA · Board Certified 2008</p>
+            <p class="campus-info">📍 Main & West Valley · Ext. 3170</p>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in" data-category="specialty">
+          <div class="doctor-avatar" style="background:linear-gradient(135deg,#1a7a6a,#0e5a4a)">LR</div>
+          <div class="doctor-info">
+            <h3>Dr. Lourdes Reyes</h3>
+            <span class="specialty-tag rheum">Rheumatology</span>
+            <p class="credentials">MD, FACR · Board Certified 2012</p>
+            <p class="campus-info">📍 Main & West Valley · Ext. 3220</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPARTMENTS -->
+  <section id="departments" class="section dept-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Our Services</div>
+        <h2 class="section-title">20 Specialties,<br/><em>one destination</em></h2>
+        <p class="section-sub">Comprehensive care across all major medical disciplines</p>
+      </div>
+      <div class="dept-grid fade-in">
+
+        <div class="dept-card">
+          <div class="dept-icon">👨‍👩‍👧</div>
+          <h3>Family Medicine</h3>
+          <p>Annual physicals, preventive screenings, chronic disease management, vaccines, travel medicine</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🫀</div>
+          <h3>Cardiology</h3>
+          <p>EKG, echocardiography, stress testing, Holter monitoring, lipid management, cardiac rehab</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">👶</div>
+          <h3>Pediatrics</h3>
+          <p>Newborn care through age 18, developmental screening, sports physicals, vaccinations</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🌸</div>
+          <h3>OB-GYN</h3>
+          <p>Prenatal care, well-woman exams, colposcopy, contraceptive counseling, menopause management</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🦴</div>
+          <h3>Orthopedics</h3>
+          <p>Fracture care, joint injections, sports injury rehab, arthroscopy evaluations</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🧠</div>
+          <h3>Neurology</h3>
+          <p>Migraines, epilepsy, Parkinson's, MS, neuropathy, sleep disorders, EMG/NCS</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🩺</div>
+          <h3>Internal Medicine</h3>
+          <p>Adult medicine, complex multi-system conditions, hospitalist coordination, geriatric care</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">💊</div>
+          <h3>Endocrinology</h3>
+          <p>Diabetes, thyroid disorders, adrenal conditions, osteoporosis, PCOS</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🫁</div>
+          <h3>Pulmonology</h3>
+          <p>Asthma, COPD, sleep apnea, pulmonary function testing, interstitial lung disease</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🔬</div>
+          <h3>Gastroenterology</h3>
+          <p>IBS, GERD, colonoscopy prep, Crohn's disease, fatty liver, celiac disease</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">✨</div>
+          <h3>Dermatology</h3>
+          <p>Acne, eczema, psoriasis, skin cancer screening, Mohs referrals, cosmetic consults</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🧘</div>
+          <h3>Psychiatry & Behavioral Health</h3>
+          <p>Depression, anxiety, ADHD, PTSD, medication management, therapy coordination</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">👁</div>
+          <h3>Ophthalmology</h3>
+          <p>Eye exams, glaucoma screening, diabetic eye care, cataract evaluations</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">💪</div>
+          <h3>Physical Therapy</h3>
+          <p>Post-surgical rehab, chronic pain, ergonomic assessments, hand therapy, balance training</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">⚡</div>
+          <h3>Urgent Care</h3>
+          <p>Minor injuries, illness, lacerations, X-rays, rapid diagnostics, 8 AM – 9 PM daily</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🏥</div>
+          <h3>Infusion Center</h3>
+          <p>18-chair suite for biologics, IV hydration, antibiotic therapy, chemotherapy support</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🖥</div>
+          <h3>Medical Imaging</h3>
+          <p>GE 3T MRI, 128-slice CT, digital X-ray, 3D mammography, ultrasound, DEXA</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">🧪</div>
+          <h3>Laboratory</h3>
+          <p>CAP-accredited, CLIA-certified lab with same-day results for most panels</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">💬</div>
+          <h3>Mental Health Counseling</h3>
+          <p>Individual therapy, CBT, couples counseling, grief support, stress management groups</p>
+        </div>
+        <div class="dept-card">
+          <div class="dept-icon">📱</div>
+          <h3>Telehealth</h3>
+          <p>Secure video visits for primary care, follow-ups, behavioral health, Rx refills</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATIONS & HOURS -->
+  <section id="locations" class="section locations-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Find Us</div>
+        <h2 class="section-title">Three campuses,<br/><em>one standard of care</em></h2>
+      </div>
+      <div class="locations-grid fade-in">
+
+        <div class="location-card main-campus">
+          <div class="location-badge">Main Campus</div>
+          <h3>Northgate Boulevard</h3>
+          <address>
+            4820 Northgate Blvd, Suite 100–800<br/>
+            Tower A & B<br/>
+            Maplewood, CA 94523
+          </address>
+          <div class="location-contact">
+            <div>📞 (925) 774-3000</div>
+            <div>📠 (925) 774-3099</div>
+          </div>
+          <div class="hours-table">
+            <div class="hours-row"><span>Mon – Thu</span><span>7:00 AM – 8:00 PM</span></div>
+            <div class="hours-row"><span>Friday</span><span>7:00 AM – 6:00 PM</span></div>
+            <div class="hours-row"><span>Saturday</span><span>8:00 AM – 4:00 PM</span></div>
+            <div class="hours-row"><span>Sunday</span><span>9:00 AM – 2:00 PM</span></div>
+          </div>
+          <div class="location-features">
+            <span>🅿 Free Covered Parking</span>
+            <span>⚡ EV Charging</span>
+            <span>♿ ADA Compliant</span>
+            <span>🚇 BART 0.3mi</span>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <div class="location-badge secondary">Eastside Clinic</div>
+          <h3>Ridgewood Avenue</h3>
+          <address>
+            1150 Ridgewood Ave, Suite 210<br/>
+            Concord, CA 94520
+          </address>
+          <div class="location-contact">
+            <div>📞 (925) 682-4400</div>
+            <div>📠 (925) 682-4499</div>
+          </div>
+          <div class="hours-table">
+            <div class="hours-row"><span>Mon – Thu</span><span>8:00 AM – 7:00 PM</span></div>
+            <div class="hours-row"><span>Friday</span><span>8:00 AM – 5:00 PM</span></div>
+            <div class="hours-row"><span>Saturday</span><span>9:00 AM – 3:00 PM</span></div>
+            <div class="hours-row"><span>Sunday</span><span>Closed</span></div>
+          </div>
+          <div class="location-features">
+            <span>🅿 Free Parking</span>
+            <span>♿ ADA Compliant</span>
+            <span>👶 Pediatrics</span>
+            <span>🚑 Urgent Care</span>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <div class="location-badge secondary">West Valley Annex</div>
+          <h3>Sunridge Parkway</h3>
+          <address>
+            305 Sunridge Pkwy, Suite 50<br/>
+            Walnut Creek, CA 94596
+          </address>
+          <div class="location-contact">
+            <div>📞 (925) 933-6100</div>
+            <div>📠 (925) 933-6199</div>
+          </div>
+          <div class="hours-table">
+            <div class="hours-row"><span>Mon – Thu</span><span>8:00 AM – 6:00 PM</span></div>
+            <div class="hours-row"><span>Friday</span><span>8:00 AM – 5:00 PM</span></div>
+            <div class="hours-row"><span>Saturday</span><span>Closed</span></div>
+            <div class="hours-row"><span>Sunday</span><span>Closed</span></div>
+          </div>
+          <div class="location-features">
+            <span>🅿 Validated Parking</span>
+            <span>♿ ADA Compliant</span>
+            <span>🧘 Mental Health</span>
+            <span>💪 Physical Therapy</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Telehealth Banner -->
+      <div class="telehealth-banner fade-in">
+        <div class="telehealth-left">
+          <div class="tele-icon">💻</div>
+          <div>
+            <h3>Can't make it in? See us online.</h3>
+            <p>Telehealth visits available Mon – Fri, 8 AM – 8 PM · (925) 774-8800 · telehealth@nwmc.org</p>
+          </div>
+        </div>
+        <a href="#book" class="btn-primary">Book Telehealth</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSURANCE -->
+  <section id="insurance" class="section insurance-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Coverage</div>
+        <h2 class="section-title">We work with<br/><em>your insurance</em></h2>
+        <p class="section-sub">NWMC accepts most major insurance plans. Contact us to verify your specific coverage.</p>
+      </div>
+      <div class="insurance-grid fade-in">
+        <div class="insurance-col">
+          <h3 class="ins-cat">Commercial Plans</h3>
+          <ul>
+            <li>Blue Shield of California</li>
+            <li>Anthem Blue Cross</li>
+            <li>Cigna</li>
+            <li>Aetna</li>
+            <li>UnitedHealthcare</li>
+            <li>Health Net</li>
+            <li>Western Health Advantage</li>
+          </ul>
+        </div>
+        <div class="insurance-col">
+          <h3 class="ins-cat">HMO Plans</h3>
+          <ul>
+            <li>Blue Shield HMO</li>
+            <li>Anthem HMO</li>
+            <li>Health Net HMO</li>
+            <li>Molina Healthcare</li>
+            <li>Sharp Health Plan</li>
+            <li>Chinese Community Health</li>
+            <li>Western Health HMO</li>
+          </ul>
+        </div>
+        <div class="insurance-col">
+          <h3 class="ins-cat">PPO Plans</h3>
+          <ul>
+            <li>Aetna PPO</li>
+            <li>Cigna PPO</li>
+            <li>Blue Shield PPO</li>
+            <li>UHC Choice Plus</li>
+            <li>Anthem PPO</li>
+            <li>Humana PPO</li>
+            <li>GEHA PPO</li>
+          </ul>
+        </div>
+        <div class="insurance-col">
+          <h3 class="ins-cat">Government Plans</h3>
+          <ul>
+            <li>Medicare Part A & B</li>
+            <li>Medicare Advantage</li>
+            <li>Medi-Cal (Medicaid)</li>
+            <li>Covered California</li>
+            <li>TRICARE Prime & Select</li>
+            <li>VA Community Care</li>
+            <li>CHIP</li>
+          </ul>
+        </div>
+      </div>
+      <div class="selfpay-box fade-in">
+        <div class="selfpay-left">
+          <h3>Self-Pay & Financial Assistance</h3>
+          <p>No insurance? We offer a <strong>sliding-scale fee program</strong> for qualifying patients. New patient visits start at <strong>$185</strong>. Payment plans, CareCredit, and HSA/FSA accepted.</p>
+        </div>
+        <div class="selfpay-right">
+          <div class="fee-item"><span>New Patient Visit</span><strong>$185</strong></div>
+          <div class="fee-item"><span>Telehealth Visit</span><strong>$110</strong></div>
+          <div class="fee-item"><span>Urgent Care</span><strong>$160</strong></div>
+          <div class="fee-item"><span>Annual Wellness</span><strong>$220</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section id="awards" class="section awards-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Recognition</div>
+        <h2 class="section-title">Award-winning<br/><em>care you can trust</em></h2>
+      </div>
+      <div class="awards-grid fade-in">
+        <div class="award-card gold">
+          <div class="award-year">2026</div>
+          <div class="award-icon">🏆</div>
+          <h3>Top 50 Multi-Specialty Clinics</h3>
+          <p>Western United States · Healthgrades National Excellence Report</p>
+        </div>
+        <div class="award-card gold">
+          <div class="award-year">2026</div>
+          <div class="award-icon">🌟</div>
+          <h3>Best Place to Work in Healthcare</h3>
+          <p>Mid-Sized Employer · Modern Healthcare Magazine</p>
+        </div>
+        <div class="award-card silver">
+          <div class="award-year">2025</div>
+          <div class="award-icon">💎</div>
+          <h3>Patient Satisfaction Excellence</h3>
+          <p>Top 10% Nationally · Press Ganey Associates</p>
+        </div>
+        <div class="award-card silver">
+          <div class="award-year">2025</div>
+          <div class="award-icon">🎖</div>
+          <h3>Excellence in Diabetes Care</h3>
+          <p>National Committee for Quality Assurance (NCQA)</p>
+        </div>
+        <div class="award-card bronze">
+          <div class="award-year">2024</div>
+          <div class="award-icon">⭐</div>
+          <h3>Five-Star Practice Excellence</h3>
+          <p>CareChex / Comparion National Rating</p>
+        </div>
+        <div class="award-card bronze">
+          <div class="award-year">2023</div>
+          <div class="award-icon">👩‍⚕️</div>
+          <h3>Physician of the Year</h3>
+          <p>Dr. Yuki Tanaka · Contra Costa County Medical Society</p>
+        </div>
+        <div class="award-card bronze">
+          <div class="award-year">2022</div>
+          <div class="award-icon">🥇</div>
+          <h3>Outstanding Women in Medicine</h3>
+          <p>Dr. Margaret Caldwell · California Medical Association</p>
+        </div>
+        <div class="award-card bronze">
+          <div class="award-year">2019</div>
+          <div class="award-icon">❤️</div>
+          <h3>AHA Gold Plus Quality Achievement</h3>
+          <p>American Heart Association</p>
+        </div>
+      </div>
+
+      <!-- Quality Metrics -->
+      <div class="metrics-section fade-in">
+        <h3 class="metrics-title">Our Quality Metrics vs. National Benchmarks <span>(FY 2025)</span></h3>
+        <div class="metrics-grid">
+          <div class="metric-bar-item">
+            <div class="metric-label"><span>Patient Satisfaction</span><span class="metric-score">93.4%</span></div>
+            <div class="metric-track"><div class="metric-fill" style="width:93.4%"></div><div class="metric-benchmark" style="left:84.1%"></div></div>
+            <div class="metric-bench-label">National avg: 84.1%</div>
+          </div>
+          <div class="metric-bar-item">
+            <div class="metric-label"><span>Breast Cancer Screening</span><span class="metric-score">89.1%</span></div>
+            <div class="metric-track"><div class="metric-fill" style="width:89.1%"></div><div class="metric-benchmark" style="left:72.3%"></div></div>
+            <div class="metric-bench-label">National avg: 72.3%</div>
+          </div>
+          <div class="metric-bar-item">
+            <div class="metric-label"><span>Childhood Immunization Rate</span><span class="metric-score">94.7%</span></div>
+            <div class="metric-track"><div class="metric-fill" style="width:94.7%"></div><div class="metric-benchmark" style="left:82%"></div></div>
+            <div class="metric-bench-label">National avg: 82.0%</div>
+          </div>
+          <div class="metric-bar-item">
+            <div class="metric-label"><span>Hypertension Control</span><span class="metric-score">80.4%</span></div>
+            <div class="metric-track"><div class="metric-fill" style="width:80.4%"></div><div class="metric-benchmark" style="left:71.2%"></div></div>
+            <div class="metric-bench-label">National avg: 71.2%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK APPOINTMENT -->
+  <section id="book" class="section book-section">
+    <div class="container">
+      <div class="book-grid fade-in">
+        <div class="book-left">
+          <div class="section-label">Get Started</div>
+          <h2 class="section-title">Ready to<br/><em>feel better?</em></h2>
+          <p>Book an appointment online, by phone, or through our Patient Portal. Same-day appointments available for urgent concerns — call at 7:00 AM.</p>
+          <div class="book-options">
+            <div class="book-option">
+              <span class="book-opt-icon">📞</span>
+              <div>
+                <strong>Call Us</strong>
+                <span>(925) 774-3000</span>
+              </div>
+            </div>
+            <div class="book-option">
+              <span class="book-opt-icon">💻</span>
+              <div>
+                <strong>Patient Portal</strong>
+                <span>portal.northgatewellness.org</span>
+              </div>
+            </div>
+            <div class="book-option">
+              <span class="book-opt-icon">📱</span>
+              <div>
+                <strong>NWMC Mobile App</strong>
+                <span>iOS & Android</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="book-right">
+          <form class="book-form" id="bookForm">
+            <h3>Request an Appointment</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name</label>
+                <input type="text" placeholder="Jane" />
+              </div>
+              <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" placeholder="Smith" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="(925) 000-0000" />
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" placeholder="jane@email.com" />
+            </div>
+            <div class="form-group">
+              <label>Department / Specialty</label>
+              <select>
+                <option value="">Select a department...</option>
+                <option>Family Medicine</option>
+                <option>Internal Medicine</option>
+                <option>Cardiology</option>
+                <option>Pediatrics</option>
+                <option>OB-GYN</option>
+                <option>Orthopedics</option>
+                <option>Dermatology</option>
+                <option>Neurology</option>
+                <option>Psychiatry & Behavioral Health</option>
+                <option>Endocrinology</option>
+                <option>Gastroenterology</option>
+                <option>Urgent Care</option>
+                <option>Telehealth Visit</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Preferred Date</label>
+              <input type="date" />
+            </div>
+            <div class="form-group">
+              <label>Message (optional)</label>
+              <textarea placeholder="Brief reason for visit..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width" id="submitBtn">Request Appointment</button>
+            <p class="form-note">Our scheduling team will confirm within 24 hours.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title">We're here<br/><em>to help</em></h2>
+      </div>
+      <div class="contact-grid fade-in">
+        <div class="contact-card">
+          <div class="contact-icon">📞</div>
+          <h3>General Line</h3>
+          <p>(925) 774-3000</p>
+          <span>Mon – Fri, 7 AM – 8 PM</span>
+        </div>
+        <div class="contact-card urgent">
+          <div class="contact-icon">🚨</div>
+          <h3>Emergency</h3>
+          <p>(925) 774-9911</p>
+          <span>24 hours / 7 days</span>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">👩‍⚕️</div>
+          <h3>Nurse Hotline</h3>
+          <p>(925) 774-6200</p>
+          <span>After-hours advice line</span>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">💊</div>
+          <h3>Pharmacy</h3>
+          <p>Ext. 5000</p>
+          <span>Mon – Sat, 8 AM – 8 PM</span>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">💰</div>
+          <h3>Billing</h3>
+          <p>(925) 774-3050</p>
+          <span>billing@northgatewellness.org</span>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">📋</div>
+          <h3>Medical Records</h3>
+          <p>Ext. 5300</p>
+          <span>records@northgatewellness.org</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:1rem;">
+            <span class="logo-cross">✦</span>
+            <span class="logo-text">Northgate<em>Wellness</em></span>
+          </div>
+          <p>Excellence in Care.<br/>Compassion in Practice.<br/>Innovation in Medicine.</p>
+          <p class="footer-npi">NPI: 1487263059 · Est. 1989</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#departments">Family Medicine</a></li>
+            <li><a href="#departments">Cardiology</a></li>
+            <li><a href="#departments">Pediatrics</a></li>
+            <li><a href="#departments">OB-GYN</a></li>
+            <li><a href="#departments">Urgent Care</a></li>
+            <li><a href="#departments">Telehealth</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="#about">About NWMC</a></li>
+            <li><a href="#doctors">Our Doctors</a></li>
+            <li><a href="#insurance">Insurance</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#locations">Locations & Hours</a></li>
+            <li><a href="#book">Book Appointment</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>📞 (925) 774-3000</li>
+            <li>🚨 Emergency: (925) 774-9911</li>
+            <li>📧 info@northgatewellness.org</li>
+            <li>🌐 northgatewellness.org</li>
+            <li>📍 4820 Northgate Blvd</li>
+            <li>Maplewood, CA 94523</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Northgate Wellness & Medical Center. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">HIPAA Notice</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+
+  <!-- ===== AI CHATBOT WIDGET ===== -->
+  <div id="chat-widget">
+
+    <!-- Bubble Button -->
+    <button id="chat-bubble" aria-label="Open chat assistant">
+      <span class="bubble-icon open-icon">💬</span>
+      <span class="bubble-icon close-icon" style="display:none">✕</span>
+      <span class="chat-notification-dot"></span>
+    </button>
+
+    <!-- Chat Window -->
+    <div id="chat-window" class="chat-hidden">
+      <div class="chat-header">
+        <div class="chat-header-left">
+          <div class="chat-avatar">✦</div>
+          <div>
+            <div class="chat-name">NWMC Assistant</div>
+            <div class="chat-status"><span class="status-dot"></span> Online</div>
+          </div>
+        </div>
+        <button class="chat-close-btn" id="chatCloseBtn">✕</button>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-msg bot">
+          <div class="msg-bubble">
+            👋 Hi! I'm the Northgate Wellness assistant. I can help you with appointments, doctors, hours, insurance, locations, and anything else about our clinic. How can I help you today?
+          </div>
+          <div class="msg-time">Just now</div>
+        </div>
+      </div>
+      <div class="chat-suggestions" id="chatSuggestions">
+        <button class="suggestion-chip" data-msg="What are your opening hours?">🕐 Opening hours</button>
+        <button class="suggestion-chip" data-msg="What insurance do you accept?">🏥 Insurance</button>
+        <button class="suggestion-chip" data-msg="How do I book an appointment?">📅 Book appointment</button>
+        <button class="suggestion-chip" data-msg="Where are you located?">📍 Locations</button>
+      </div>
+      <div class="chat-input-area">
+        <input type="text" id="chatInput" placeholder="Ask me anything about NWMC..." autocomplete="off" />
+        <button id="chatSendBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
